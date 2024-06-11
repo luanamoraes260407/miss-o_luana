@@ -1,23 +1,23 @@
 const caixaPrincipa = document.querySelector (".caixa principal")
 const caixaPerguntas = document.querySelector(".caixa-perguntas")
 const caixaAlternativas = documet. querySelector(".caixa-alternativas")
-constcaixaResultado = document.querySelector(".caixa-resultado")
-consttextoResultado = document.querySelector(".texto-resultado")
+const caixaResultado = document.querySelector(".caixa-resultado")
+const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
     {
-        anunciando: "qual maneira de se combater o desmatamento?",
+        enunciado: "qual maneira de se combater o desmatamento?",
         alternativas: [
-            "reflostamento de areas degradadas",
+            "reflorestamento de areas degradadas",
             "implementação de leis mais rigoradas para a proteção de florestas"
-
         ]
-    }
+    },
+]
+ enunciado;"como podemos comater a desigualdade social de forma eficaz e sustentável?",
+alternativas;[
+"imlementar programas de educação e formação profissional acessíveis a todos",
 ]
 
-
-
-<script
 
 ]
 
