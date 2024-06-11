@@ -1,0 +1,35 @@
+const caixaPrincipa = document.querySelector (".caixa principal")
+const caixaPerguntas = document.querySelector(".caixa-perguntas")
+const caixaAlternativas = documet. querySelector(".caixa-alternativas")
+constcaixaResultado = document.querySelector(".caixa-resultado")
+consttextoResultado = document.querySelector(".texto-resultado")
+
+const perguntas = [
+    {
+        anunciando: "qual maneira de se combater o desmatamento?",
+        alternativas: [
+            "reflostamento de areas degradadas",
+            "implementação de leis mais rigoradas para a proteção de florestas"
+
+        ]
+    }
+]
+
+
+
+<script
+
+]
+
+let atual = 0;
+let PerguntaAtual;
+
+function mostraPergunta(){//criando função para mostra pergunta}
+    PerguntaAtual=perguntas[atual];
+    caixaPerguntas.textContent = pergunta atual.enunciado;
+}
+
+
+
+
+
