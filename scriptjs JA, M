@@ -24,11 +24,19 @@ alternativas;[
 let atual = 0;
 let PerguntaAtual;
 
-function mostraPergunta(){//criando função para mostra pergunta}
-    PerguntaAtual=perguntas[atual];
-    caixaPerguntas.textContent = pergunta atual.enunciado;
+function mostraPergunta(){
+    perguntaAtual = perguntas [atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas. textContent = "";
+    mostraAlternativa();
+ }
+function mostraAlternativa(){
+    for(const alternativas of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("botton");
+        botaoAlternativas.textContent = alternativas;
+        caixaAlternativas.appendChild(botaoAlternativas);
+    }
 }
-
 
 
 
