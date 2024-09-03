@@ -6,14 +6,18 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "TEXTO DA PERGUNTA 1",
+       
         alternativas: [
             {
-                texto: "TEXTO DA ALTERNATIVA 1 DA PERGUNTA 1",
-                afirmacao: "AFIRMAÇÃO DA ALTERNATIVA 1 DA PERGUNTA 1"
+                texto: "Qual tecnologia tem mais potencial para revolucionar o processamento de dados no futuro?
+
+",
+            afirmacao: "Pode resolver problemas complexos rapidamente e processar grandes volumes de dados.
+
+"
             },
             {
-                texto: "TEXTO DA ALTERNATIVA 2 DA PERGUNTA 1",
+                texto: "Qual tendência está mais alinhada com o desenvolvimento sustentável?",
                 afirmacao: "AFIRMAÇÃO DA ALTERNATIVA 2 DA PERGUNTA 1"
             }
 
@@ -37,12 +41,12 @@ const perguntas = [
         enunciado: "TEXTO DA PERGUNTA 3",
         alternativas: [
             {
-                texto: "TEXTO DA ALTERNATIVA 1 DA PERGUNTA 3",
-                afirmacao: "AFIRMAÇÃO DA ALTERNATIVA 1 DA PERGUNTA 3"
+                texto: "Qual tecnologia tem mais potencial para transformar a educação?",
+                afirmacao: "Oferece experiências imersivas e interativas para um aprendizado mais envolvente."
             },
             {
-                texto: "TEXTO DA ALTERNATIVA 2 DA PERGUNTA 3",
-                afirmacao: "AFIRMAÇÃO DA ALTERNATIVA 2 DA PERGUNTA 3"
+                texto: "Qual tecnologia tem mais potencial para transformar a educação?",
+                afirmacao: "Tecnologia ultrapassada, não proporciona inovação educacional."
             }
 
         ]
